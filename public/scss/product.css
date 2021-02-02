@@ -1,0 +1,9 @@
+.head {
+  text-align: center;
+}
+.badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}

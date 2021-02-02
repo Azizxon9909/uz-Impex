@@ -1,0 +1,355 @@
+html {
+  scroll-behavior: smooth; }
+body {
+  .section1 {
+    .ab{
+      img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 5px;
+      }
+    }
+    color: white;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../Images/Header image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+
+    hr {
+      padding: 0;
+      margin: 0;
+    }
+
+    .btn {
+      height: 60px;
+      background-color: rgba(135, 136, 104, 0.62);
+      color: whitesmoke;
+
+      img {
+        width: 25px;
+        margin-right: 20px;
+
+      }
+    }
+
+    dl {
+      color: whitesmoke;
+    }
+
+    a {
+      color: white;
+      border-bottom: 3px solid transparent;
+    }
+
+    form a {
+      color: white;
+    }
+
+    .navbar {
+      padding: 0;
+    }
+
+    a:hover {
+      color: white !important;
+      background-color: rgba(79, 105, 112, 0.7);
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      transition: .5s;
+    }
+
+    .carousel-item {
+      height: 100%;
+      background: no-repeat;
+      background-size: cover;
+    }
+
+  }
+
+  .section2 {
+    .badge {
+      background-color: black;
+      width: 120px;
+      height: 3px;
+      color: transparent;
+    }
+  }
+
+  .section3 {
+
+
+    text-align: center;
+    background-color: #f4f4f4;
+
+    .badge-dark {
+      background-color: black;
+      width: 120px;
+      height: 3px;
+      color: transparent;
+    }
+
+    .card {
+      img {
+        width: 119% !important;
+        margin-left: -20px;
+        margin-top: -20px;
+
+      }
+
+      .badge {
+        background-color: black;
+        width: 50px;
+        height: 3px;
+        color: transparent;
+      }
+    }
+  }
+
+  .section4 {
+    .badge {
+      background-color: black;
+      width: 120px;
+      height: 3px;
+      color: transparent;
+    }
+  }
+
+  .section5 {
+    color: white;
+    //background-color: #545454;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../Images/Theme1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+
+    .btn {
+      color: white !important;
+      border: 1px solid whitesmoke !important;
+    }
+  }
+
+  .section6 {
+    .head {
+      text-align: center;
+
+      .badge-dark {
+        background-color: black;
+        width: 120px;
+        height: 3px;
+        color: transparent;
+      }
+    }
+
+    .bir {
+      z-index: 1000;
+      height: 250px;margin-bottom: 200px;
+    }
+    .divTime{
+      background-color: white;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-top: -310px;
+      margin-left: 1px;
+      z-index: 2000;
+      position: absolute;
+      width: 160px;
+      height: 30px;
+      
+    }
+    
+
+    .box {
+      background-color: white;
+      padding: 15px;
+      box-sizing: border-box;
+      box-shadow: 1px 5px 10px;
+      margin-top: -70px;
+      margin-left: 40px;
+      z-index: 2000;
+      position: absolute;
+      width: 450px;
+      height: 220px;
+      overflow: auto;
+    }
+  }
+  .section_product {
+    .head {
+      text-align: center;
+
+      .badge-dark {
+        background-color: black;
+        width: 120px;
+        height: 3px;
+        color: transparent;
+      }
+    }
+
+    .bir {
+      z-index: 1000;
+      
+    }
+    .divTime{
+      background-color: white;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-top: -310px;
+      margin-left: 6px;
+      z-index: 2000;
+      position: absolute;
+      width: 160px;
+      height: 30px;
+      
+    }
+    
+
+    .box {
+      background-color: white;
+      padding: 15px;
+      box-sizing: border-box;
+      box-shadow: 1px 5px 10px;
+      margin-top: -70px;
+      margin-left: 40px;
+      z-index: 2000;
+      position: absolute;
+      width: 450px;
+      height: 220px;
+      overflow: auto;
+    }
+  }
+
+  .section7 {
+    margin-top: 180px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: lightgrey;
+
+    h2 {
+      font-size: 70px;
+    }
+
+    .p1 {
+      font-size: 50px;
+    }
+  }
+
+  .section8 {
+    text-align: center;
+
+    .div {
+      padding: 50px 0;
+      text-align: center;
+
+
+      .badge-dark {
+        background-color: black;
+        width: 120px;
+        height: 3px;
+        color: transparent;
+      }
+    }
+
+  }
+
+  .section9 {
+    padding-top: 50px;
+    background-image: url("../Images/head3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .section10 {
+    text-align: center;
+
+    .div {
+      //padding: 50px 250px;
+
+      .badge-dark {
+        background-color: black;
+        width: 120px;
+        height: 3px;
+        color: transparent;
+      }
+    }
+
+    .badge {
+      background-color: black;
+      width: 50px;
+      height: 3px;
+      color: transparent;
+    }
+  }
+
+  .section11 {
+    .badge-dark {
+      background-color: orangered;
+      width: 120px;
+      height: 3px;
+      color: transparent;
+    }
+
+    .box {
+      background-color: rgba(84, 63, 49, 0.78);
+    }
+
+    .list {
+      padding: 50px 0px 50px 100px;
+    }
+
+    background-image: url("../Images/head2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .section12 {
+    text-align: center;
+  }
+
+
+  .section14{
+    hr{
+      color: white;
+      background-color: white;
+    }
+    a{
+      color: white;
+    }
+    color: white!important;
+    background-color: rgba(16, 8, 8, 0.67);
+    .container{
+      background-image: url("../SVG/Map.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    span{
+      img{
+        float: left;
+        padding-top: 11px;
+        margin-right: 10px;
+      }
+    }
+    .badge {
+      img{
+        width: 30px;
+      }
+      background-color: transparent;
+      border-radius: 10px;
+      width: 50px;
+      cursor: pointer;
+    }
+    .badge:hover {
+      background-color: gray;
+    }
+
+  }
+}
+
+

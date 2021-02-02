@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        title= title
+        link(rel='stylesheet' href='scss/index.css')
+        link(rel='stylesheet' href='scss/product.css')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet' href='css/bootstrap.min.css')
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+
+
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" )
+
+    body
+        nav.navbar.navbar-expand-lg.navbar-light.bg-info
+            a.navbar-brand(href='/') Uzimpex
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href='/add') Add
+                    li.nav-item.active
+                        a.nav-link(href='/product') Products
+        .section_product
+            .container.pt-lg-5
+                .head
+                    h2= update
+                    .badge.badge-dark .
+
+            
+                form(method="POST")
+                    if datas
+                        .form-group
+                            input.form-control(type='text' class='mt-lg-2' name='title' aria-describedby='emailHelp' placeholder='Kitobning nomi' value= datas.title)
+                            input.form-control(type='text' class='mt-lg-2' name='about' aria-describedby='emailHelp' placeholder='Kitobning muallifi' value= datas.about)
+                            input.form-control(type='file' class='mt-lg-2' name='photo' aria-describedby='emailHelp' placeholder='Kitobning rasmi' value= datas.photo)
+                        button.btn.btn-primary(type='submit') Submit
+                    else 
+                        .form-group
+                            input.form-control(type='text' class='mt-lg-2' name='title' aria-describedby='emailHelp' placeholder='Title')
+                            input.form-control(type='text' class='mt-lg-2' name='about' aria-describedby='emailHelp' placeholder='About')
+                            input.form-control(type='file' class='mt-lg-2' name='photo' aria-describedby='emailHelp' placeholder='Kitobning rasmi')
+                            
+                        button.btn.btn-primary(type='submit') Submit
+
+script(src='js/jquery-3.3.1.slim.min.js')
+script(src='js/popper.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/owl.carousel.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/animation-count.js')
+script(src='js/animationCounter.js')                    

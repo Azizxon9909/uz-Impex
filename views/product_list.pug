@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        title= title
+        link(rel='stylesheet' href='scss/index.css')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet' href='css/bootstrap.min.css')
+        link(rel='stylesheet' href='css/owl.carousel.css')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" )
+
+    body
+        nav.navbar.navbar-expand-lg.navbar-light.bg-info
+            a.navbar-brand(href='/') Uzimpex
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href='/add') Add
+                    li.nav-item.active
+                        a.nav-link(href='/product') Products
+        .section_product
+            .container.pt-lg-5
+                .head
+                    h2
+                        | Product 
+                        span(style='background-color:  #484848; color: whitesmoke') Lists
+                    .badge.badge-dark .
+                    .row
+                        each db, i in datas
+
+                            .col-lg-6.col(style="margin-bottom: 200px")
+                                .bir 
+                                        img(src=db.photo alt='')
+                                        .divTime
+                                            i(class="mr-2 fas fa-calendar-alt")
+                                            span= db.dateTime.toDateString()
+
+                                        .box
+                                            h3= db.title
+                                            p= db.about
+                                            
+                                            a(href="/product/"+db.id).btn.btn-success 
+                                                i(class="fas fa-wrench") 
+                                            a(href='/remove/'+db.id class="ml-2").btn.btn-danger 
+                                                i(class="fas fa-trash")   
+
+
+script(src='js/jquery-3.3.1.slim.min.js')
+script(src='js/popper.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/owl.carousel.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/animation-count.js')
+script(src='js/animationCounter.js')                    

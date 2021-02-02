@@ -1,0 +1,342 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body .section1 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Images/Header image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Header image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+body .section1 .ab img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+body .section1 hr {
+  padding: 0;
+  margin: 0;
+}
+
+body .section1 .btn {
+  height: 60px;
+  background-color: rgba(135, 136, 104, 0.62);
+  color: whitesmoke;
+}
+
+body .section1 .btn img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+body .section1 dl {
+  color: whitesmoke;
+}
+
+body .section1 a {
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+body .section1 form a {
+  color: white;
+}
+
+body .section1 .navbar {
+  padding: 0;
+}
+
+body .section1 a:hover {
+  color: white !important;
+  background-color: rgba(79, 105, 112, 0.7);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .section1 .carousel-item {
+  height: 100%;
+  background: no-repeat;
+  background-size: cover;
+}
+
+body .section2 .badge {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section3 {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+body .section3 .badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section3 .card img {
+  width: 119% !important;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+body .section3 .card .badge {
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section4 .badge {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section5 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Images/Theme1.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Theme1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+body .section5 .btn {
+  color: white !important;
+  border: 1px solid whitesmoke !important;
+}
+
+body .section6 .head {
+  text-align: center;
+}
+
+body .section6 .head .badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section6 .bir {
+  z-index: 1000;
+  height: 250px;
+  margin-bottom: 200px;
+}
+
+body .section6 .divTime {
+  background-color: white;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -310px;
+  margin-left: 1px;
+  z-index: 2000;
+  position: absolute;
+  width: 160px;
+  height: 30px;
+}
+
+body .section6 .box {
+  background-color: white;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 1px 5px 10px;
+          box-shadow: 1px 5px 10px;
+  margin-top: -70px;
+  margin-left: 40px;
+  z-index: 2000;
+  position: absolute;
+  width: 450px;
+  height: 220px;
+  overflow: auto;
+}
+
+body .section_product .head {
+  text-align: center;
+}
+
+body .section_product .head .badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section_product .bir {
+  z-index: 1000;
+}
+
+body .section_product .divTime {
+  background-color: white;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -310px;
+  margin-left: 6px;
+  z-index: 2000;
+  position: absolute;
+  width: 160px;
+  height: 30px;
+}
+
+body .section_product .box {
+  background-color: white;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 1px 5px 10px;
+          box-shadow: 1px 5px 10px;
+  margin-top: -70px;
+  margin-left: 40px;
+  z-index: 2000;
+  position: absolute;
+  width: 450px;
+  height: 220px;
+  overflow: auto;
+}
+
+body .section7 {
+  margin-top: 180px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+body .section7 h2 {
+  font-size: 70px;
+}
+
+body .section7 .p1 {
+  font-size: 50px;
+}
+
+body .section8 {
+  text-align: center;
+}
+
+body .section8 .div {
+  padding: 50px 0;
+  text-align: center;
+}
+
+body .section8 .div .badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section9 {
+  padding-top: 50px;
+  background-image: url("../Images/head3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+body .section10 {
+  text-align: center;
+}
+
+body .section10 .div .badge-dark {
+  background-color: black;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section10 .badge {
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section11 {
+  background-image: url("../Images/head2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+body .section11 .badge-dark {
+  background-color: orangered;
+  width: 120px;
+  height: 3px;
+  color: transparent;
+}
+
+body .section11 .box {
+  background-color: rgba(84, 63, 49, 0.78);
+}
+
+body .section11 .list {
+  padding: 50px 0px 50px 100px;
+}
+
+body .section12 {
+  text-align: center;
+}
+
+body .section14 {
+  color: white !important;
+  background-color: rgba(16, 8, 8, 0.67);
+}
+
+body .section14 hr {
+  color: white;
+  background-color: white;
+}
+
+body .section14 a {
+  color: white;
+}
+
+body .section14 .container {
+  background-image: url("../SVG/Map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .section14 span img {
+  float: left;
+  padding-top: 11px;
+  margin-right: 10px;
+}
+
+body .section14 .badge {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 50px;
+  cursor: pointer;
+}
+
+body .section14 .badge img {
+  width: 30px;
+}
+
+body .section14 .badge:hover {
+  background-color: gray;
+}
+/*# sourceMappingURL=index.css.map */
